@@ -1,0 +1,97 @@
+/*
+  CENTRAGE
+*/
+h2,
+ul,
+small,
+a {
+  text-align: center;
+}
+ul {
+  width: 60%;
+}
+ul,
+small,
+.definition:target,
+.masquer {
+  margin: auto;
+}
+li,
+.definition:target {
+  width: 45%;
+}
+/*
+  FIN DU CENTRAGE
+*/
+/*
+
+*/
+/*
+  DECORATION
+*/
+li {
+  display: inline-block;
+  line-height: 5rem;
+  font-size: 1.4rem;
+}
+a {
+  text-decoration: none;
+}
+small,
+.masquer {
+/* définition explicite afin de pouvoir interagir dessus par la suite. */
+  display: block;
+}
+/*
+  FIN DE LA DECO DE BASE
+*/
+/*
+
+*/
+/*
+  ICI LE COEUR DU SUJET
+*/
+.afficher {
+/* par défaut les définitions sont masquées mais conservées dans le flux. Ce qui permet aux "robots" d'accéder à ce contenu. */
+  position: absolute;
+  border: 0;
+  height: 1px;
+  width: 1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(1px 1px 1px 1px); /* IE6 & IE7 */
+  clip: rect(1px, 1px, 1px, 1px);
+}
+.afficher:target {
+/* Lorsqu'une définition est la cible d'un lien (action cliquer), celle-ci rétablit le style des définitions les rendants visibles à l'oeil. */
+  position: relative;
+  height: auto;
+  padding: initial;
+  clip: initial;
+}
+/*
+  FIN DU COEUR DU SUJET
+*/
+/*
+  pas mal, hein ?
+*/
+/*
+  DECO DES DEFINITIONS
+*/
+p:first-of-type {
+  font-size: 1.2rem;
+}
+p:last-of-type {
+  font-style: italic;
+}
+.masquer {
+  font-weight: bold;
+}
+/* 20160625 added */
+.afficher:target ~ small {
+/* cette information est éjectée du flux car non indispensable ni en accessibilité ni en SEO ou autre (où alors un truc auquel je n'ai pas pensé). */
+  display: none;
+}
+/*
+  LA FIN DE LA FIN
+*/

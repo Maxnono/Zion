@@ -1,0 +1,237 @@
+header{
+  padding-top: 7px;
+  padding-bottom: 7px;
+	background-color: #241e20;
+	border-bottom: 2px solid #6bf692;
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(205,205,205, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+#logo{
+	text-align: left;
+	padding-bottom: 2px;
+	max-height: 100px;
+	max-width: 110px;
+}
+
+[id*="headlink"]:hover{
+  color: white;
+  text-decoration: none;
+}
+
+@media (min-width: 897px) {
+  #imagerow {
+    background: url("https://image.noelshack.com/fichiers/2018/12/1/1521415170-truefondlarge.png") no-repeat;
+  }
+}
+
+@media (max-width: 898px) {
+  #imagerow {
+     background: url("https://image.noelshack.com/fichiers/2018/12/1/1521415175-truefondsmall.png") no-repeat;
+  }
+}
+
+@media (max-width: 1193px){
+  [id*="title"]{
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 1395px) and (min-width: 1194px){
+  [id*="title"]{
+    font-size: 25px;
+  }
+}
+
+@media (min-width: 1396px){
+  [id*="title"]{
+    font-size: 30px;
+  }
+}
+
+#imagerow{
+  background-color: #615157;
+  padding-top: 70px;
+}
+
+#cadre{
+  text-align: center;
+}
+
+h1{
+  font-weight: bold;
+  font-size: 58px;
+}
+
+h2{
+  font-size: 40px;
+}
+
+p{
+  font-size: 18px;
+}
+
+[id*="box"]{
+  text-align: center;
+  padding-top: 6px;
+  padding-bottom: 10px;
+  background-color: #241e20;
+  border-radius: 10px;
+  border: 2px solid #6bf692;
+  box-shadow: 2px 2px 2px 2px black;
+  transition-property: box-shadow;
+  transition-duration: 0.5s;
+  transition-delay: 0s;
+}
+
+[id*="box"]:hover{
+  box-shadow: 0px 0px 0px 0px black;
+}
+
+[id*="title"]{
+  font-weight: bold;
+  padding-top: 6px;
+}
+
+@media (max-width: 1007px){
+  .divText{
+    text-align: center;
+  }
+
+  .etapesContain{
+    margin-right: 80px;
+  }
+
+  .btn-custom{
+    margin-right: 80px
+  }
+
+  .footSec{
+    text-align: center;
+  }
+}
+
+@media (min-width: 1008px){
+  .divText{
+    text-align: left;
+  }
+
+  .etapesContain{
+    margin-right: 0px;
+  }
+
+  .btn-custom{
+    margin-right: 0px
+  }
+
+  .footSec{
+    text-align: left;
+  }
+}
+
+#row2{
+  padding-top: 130px;
+}
+
+#section1{
+  margin-top: 50px;
+  background-color: #615157;
+}
+
+#section2{
+  background-color: #453b3f;
+}
+
+#section3{
+  background-color: #615157;
+}
+
+.divSections{
+  padding-bottom: 30px;
+  padding-top: 10px;
+}
+
+.logo-section{
+  margin-top: 10px;
+  text-align: center;
+}
+
+.divTitle{
+  font-size: 28px;
+  margin-top: -5px;
+  margin-bottom: 20px;
+}
+
+.etapesContain{
+  text-align: left;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  margin-top: 20px;
+  margin-left: 80px;
+  background-color: #241e20;
+  border-radius: 4px;
+}
+
+.containTitle{
+  font-weight: bold;
+  font-size: 20px;
+  text-align: center;
+}
+
+.etapes{
+  margin-bottom: 5px;
+}
+
+.btn-custom {
+  background-color: #241e20;
+  font-size: 20px;
+  color: #cdcdcd;
+  margin-left: 80px;
+  margin-top: 20px;
+  width: 100%;
+}
+
+.btn-custom:hover{
+  color: white;
+}
+
+footer{
+  background-color: #241e20;
+	border-top: 2px solid #6bf692;
+  padding-top: 6px;
+  padding-bottom: 20px;
+}
+
+.logoFoot{
+  text-align: center;
+}
+
+.titleFoot{
+  padding-top: 5px;
+  font-size: 21px;
+}
+
+.liFoot{
+  list-style: none;
+  padding-left: 0px;
+  margin-top: -5px;
+}
+
+.linkFoot:hover{
+  color: white;
+  text-decoration: none;
+}
+
+body{
+  color: #cdcdcd;
+}
+
+a{
+	color: #cdcdcd;
+}
+#div_formulaire
+{
+  margin-top:35px;
+}

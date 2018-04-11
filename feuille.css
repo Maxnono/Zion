@@ -1,0 +1,51 @@
+body{
+    background-color: #241e20;
+    color: #cdcdcd;
+}
+#titre{
+    background-color: #241e20;
+    color: #cdcdcd;
+}
+#equipe{
+    border-radius: 10px;
+}
+
+
+footer{
+    background-color: #241e20;
+      border-top: 2px solid #6bf692;
+    padding-top: 6px;
+    padding-bottom: 20px;
+  }
+
+  .logoFoot{
+    text-align: center;
+  }
+
+  .titleFoot{
+    padding-top: 5px;
+    font-size: 21px;
+  }
+
+  .liFoot{
+    list-style: none;
+    padding-left: 0px;
+    margin-top: -5px;
+  }
+
+  .linkFoot:hover{
+    color: white;
+    text-decoration: none;
+  }
+
+
+
+  a{
+      color: #cdcdcd;
+  }
+  #logo{
+	text-align: left;
+	padding-bottom: 2px;
+	max-height: 100px;
+	max-width: 110px;
+}

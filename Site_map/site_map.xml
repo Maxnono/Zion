@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<urlset xmlns="http://www.google.com/schemas/sitemap/0.84">
+  <url>
+    <loc>http://www.zion.com</loc>
+    <lastmod>2018-03-18</lastmod>
+    <changefreq>never</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>http://www.zion.com/groupes </loc>
+    <lastmod>2018-03-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.1</priority>
+  </url>
+  <url>
+    <loc>http://wwwe.zion.com/offres</loc>
+    <lastmod>2018-03-18</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.1</priority>
+  </url>
+  <url>
+    <loc>http://wwwe.zion.com/informations</loc>
+    <lastmod>2018-03-18</lastmod>
+    <changefreq>never</changefreq>
+    <priority>0.1</priority>
+  </url>
+  <url>
+    <loc>http://wwwe.zion.com/jeux</loc>
+    <lastmod>2018-03-18</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.1</priority>
+  </url>
+  <url>
+    <loc>http://wwwe.zion.com/inscription</loc>
+    <lastmod>2018-03-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.1</priority>
+  </url>
+  <url>
+    <loc>http://wwwe.zion.com/se_connecter</loc>
+    <lastmod>2018-03-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.1</priority>
+  </url>
+  <url>
+    <loc>http://wwwe.zion.com/search</loc>
+    <lastmod>2018-03-18</lastmod>
+    <changefreq>never</changefreq>
+    <priority>0.1</priority>
+  </url>
+
+</urlset>
+?>
